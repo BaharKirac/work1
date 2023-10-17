@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.images {
+  width: 400px;
+  border-color: rgba(228, 187, 165, 0.075);
+  border-width: 6px;
+  border-style: solid;
+  border-style: inset;
+}
