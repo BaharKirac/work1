@@ -1,0 +1,35 @@
+ul.pseudo li:first-child {
+  color: blue;
+  font-weight: 700;
+}
+
+ul.pseudo li:last-child {
+  color: green;
+  font-weight: 700;
+}
+ul.pseudo li:nth-child(5) {
+  color: purple;
+  font-weight: 700;
+}
+ul.pseudo li:nth-child(odd) {
+  color: palevioletred;
+  background-color: lightgrey;
+  font-weight: 700;
+}
+ul.pseudo li:nth-child(even) {
+  color: salmon;
+  background-color: darkgrey;
+  font-weight: 700;
+}
+ul.pseudo li:hover{
+    background-color: black;
+}
+ul.pseudo li:active {
+    background-color: aquamarine;
+}
+ul.pseudo li:first-child:hover {
+    opacity: 0.5;
+    background-color: darkcyan;
+    cursor: pointer;
+  }
+  
